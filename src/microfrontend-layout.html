@@ -1,0 +1,23 @@
+<single-spa-router>
+  <main class="fullwidth">
+    <div class="fullwidth">
+      <div class="login">
+        <application name="@serengeti/login"></application>
+      </div>
+      <div class="app-content">
+        <route default>
+          <application name="@serengeti/nav"></application>
+        </route>
+        <route path="news">
+          <application name="@serengeti/news"></application>
+        </route>
+        <route path="music">
+          <application name="@serengeti/music"></application>
+        </route>
+        <route path="movies">
+          <application name="@serengeti/movies"></application>
+        </route>
+      </div>
+    </div>
+  </main>
+</single-spa-router>

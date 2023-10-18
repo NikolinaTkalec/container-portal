@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  background-color: black;
+}
+
+p,
+div {
+  color: #bf8d39;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.app-content {
+  width: 100%;
+}
